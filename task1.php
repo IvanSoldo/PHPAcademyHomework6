@@ -47,7 +47,7 @@ var_dump($dog->a);
 echo '<br>';
 
 try {
-    $dog->age = 'b';
+    $dog->age = 19;
 } catch (Exception $e) {
     echo $e->getMessage();
 }
