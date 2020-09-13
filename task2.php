@@ -35,7 +35,6 @@ class SomeData {
             default :
                 throw new Exception("Method not allowed. ");
         }
-        return ' ';
     }
 
 }
